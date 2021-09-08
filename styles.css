@@ -1,7 +1,9 @@
 .tekstikentta{
-    position:fixed;
+   position: sticky;
     left: 100px;
     width: 250px;
+    margin-top: 10px;
+ 
 }
 
 textarea{

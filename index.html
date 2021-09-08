@@ -9,7 +9,8 @@
 </head>
 <body>
 
-    <form class="formi">
+    <script src="script.js"></script>
+    <form name="formi">
         <label for="kayttajaID">Käyttäjä ID:</label>
         <input class="tekstikentta" type="text" id="kayttajaID"><br>
 
@@ -63,7 +64,7 @@
             <textarea></textarea>
         </form>
 
-        <input class="nappula" type ="button" value="Lähetä">
+        <input class="nappula" id="laheta" onclick="checkIfEmpty()" type ="button" value="Lähetä">
 
     </form>
 </body>
