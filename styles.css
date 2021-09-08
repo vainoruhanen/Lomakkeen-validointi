@@ -1,0 +1,22 @@
+.tekstikentta{
+    position:fixed;
+    left: 100px;
+    width: 250px;
+}
+
+textarea{
+    position:fixed;
+    left: 100px;
+    width: 250px;
+    height: 150px;
+    resize: none;
+    
+}
+
+.nappula{
+    position: fixed;
+    left:200px;
+    margin-top: 175px;
+    
+}
+

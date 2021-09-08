@@ -5,41 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <form class="formi">
         <label for="kayttajaID">Käyttäjä ID:</label>
-        <input type="text" id="kayttajaID"><br>
+        <input class="tekstikentta" type="text" id="kayttajaID"><br>
 
         <label for="salasana">Salasana:</label>
-        <input type="text" id="salasana"><br>
+        <input class="tekstikentta" type="text" id="salasana"><br>
 
         <label for="nimi">Nimi:</label>
-        <input type="text" id="nimi"><br>
+        <input class="tekstikentta" type="text" id="nimi"><br>
 
         <label for="osoite">Osoite:</label>
-        <input type="text" id="osoite"><br>
+        <input class="tekstikentta" type="text" id="osoite"><br>
 
         
         <label for="maa">Maa:</label>
-        <select id="maa">
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+        <select class="tekstikentta" id="maa">
+            <option value="valitse-maa">Valitse maa</option>
+            <option value="suomi">Suomi</option>
+            <option value="ruotsi">Ruotsi</option>
+            <option value="muu">Muu</option>
         </select><br>
 
         <label for="postinumero">Postinumero:</label>
-        <input type="text" id="postinumero"><br>
+        <input class="tekstikentta" type="text" id="postinumero"><br>
     
         <label for="sahkoposti">Sähköposti:</label>
-        <input type="text" id="sahkoposti"><br>
+        <input class="tekstikentta" type="text" id="sahkoposti"><br>
 
       
         <form class="sukupuoliFormi">
             <label>Sukupuoli:</label>
-            <input type="radio" id="mies" name="sukupuoli" value="mies">
+            <input  type="radio" id="mies" name="sukupuoli" value="mies">
             <label for="html">Mies</label>
     
             <input type="radio" id="nainen" name="sukupuoli" value="nainen">
@@ -53,7 +54,16 @@
 
            <input type="checkbox" id ="muu" name="kieli" value="muu">
            <label for="html">Muu kuin suomi</label>
+        </form><br>
+
+
+        
+        <form>
+            <label for="lisatietoja">Lisätietoja:</label>
+            <textarea></textarea>
         </form>
+
+        <input class="nappula" type ="button" value="Lähetä">
 
     </form>
 </body>
